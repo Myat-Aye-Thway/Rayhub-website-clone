@@ -22,4 +22,8 @@ router.get('/activity', function(req, res, next) {
     res.render('activity', { title: 'Express' });
 });
 
+router.get('/about', function(req, res, next) {
+    res.render('about', { title: 'Express' });
+});
+
 module.exports = router;
