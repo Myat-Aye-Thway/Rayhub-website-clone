@@ -3,19 +3,23 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+    res.render('index', { title: 'Express' });
 });
 
 router.get('/3', function(req, res, next) {
-  res.render('index3', { title: 'Express' });
+    res.render('index3', { title: 'Express' });
 });
 
 router.get('/home', function(req, res, next) {
-  res.render('home', { title: 'Express' });
+    res.render('home', { title: 'Express' });
 });
 
 router.get('/course', function(req, res, next) {
-  res.render('course', { title: 'Express' });
+    res.render('course', { title: 'Express' });
+});
+
+router.get('/activity', function(req, res, next) {
+    res.render('activity', { title: 'Express' });
 });
 
 module.exports = router;
