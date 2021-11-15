@@ -11,19 +11,23 @@ router.get('/3', function(req, res, next) {
 });
 
 router.get('/home', function(req, res, next) {
-    res.render('home', { title: 'Express' });
+    res.render('home', { title: 'Home' });
 });
 
 router.get('/course', function(req, res, next) {
-    res.render('course', { title: 'Express' });
+    res.render('course', { title: 'Course' });
 });
 
 router.get('/activity', function(req, res, next) {
-    res.render('activity', { title: 'Express' });
+    res.render('activity', { title: 'Activity' });
 });
 
 router.get('/about', function(req, res, next) {
-    res.render('about', { title: 'Express' });
+    res.render('about', { title: 'About' });
+});
+
+router.get('/article', function(req, res, next) {
+    res.render('article', { title: 'Article' });
 });
 
 module.exports = router;
