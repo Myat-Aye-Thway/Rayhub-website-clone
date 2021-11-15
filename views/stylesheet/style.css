@@ -1239,8 +1239,8 @@ input::-webkit-input-placeholder {
     padding-bottom: 31px;
 }
 .menu-bar .menu-bar-wrap{
-    border-top: 1px solid #d0d0d0; 
-    background: rgba(255,255,255, 0.2);
+    border-top: 1px solid #ebca0f; 
+    background: rgba(255, 255, 255, 0.2);
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
     padding: 0 30px;
@@ -1307,7 +1307,7 @@ input::-webkit-input-placeholder {
 .main-nav .menu li a{
     font-size: 16px;
     font-weight: 600;
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 .main-nav .menu li.nav-sing a{
     font-weight: 500;
@@ -1320,7 +1320,7 @@ input::-webkit-input-placeholder {
     float: right;
 }
 .nav-sing li a{
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-size: 16px;
     font-weight: 500;
 }
@@ -1711,7 +1711,7 @@ input::-webkit-input-placeholder {
     text-transform: none;
 }
 #footer .form-send .send-button-type1:hover{
-    color: #fbb545;
+    color: #f7f4ef;
     background-color: #333;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
@@ -1733,7 +1733,7 @@ input::-webkit-input-placeholder {
     font-size: 24px ;
     font-weight: 700 ;
     margin-bottom: 36px;
-    color: #333;
+    color: rgb(228, 78, 9);
 }
 #footer #footer-widget .col-company .widget.widget-title{
     letter-spacing: 0.7px;
@@ -1748,7 +1748,7 @@ input::-webkit-input-placeholder {
 }
 #footer #footer-widget .widget-nav-menu li a { 
     font-size: 17px;
-    color: #7a7a7a;
+    color: #f0efee;
     font-weight: 300;
 }
 #footer #footer-widget .widget-social-media li{
@@ -1768,7 +1768,7 @@ input::-webkit-input-placeholder {
     border-top: 1px solid #f1f1f1;
 }
 .bottom-type2{
-    background: #39468f;
+    background: #eaebee;
 }
 .bottom-type2 .bottom-bar-inner-wrap{
     padding: 27px 0px 26px 0px;
