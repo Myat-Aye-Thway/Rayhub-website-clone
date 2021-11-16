@@ -30,4 +30,8 @@ router.get('/article', function(req, res, next) {
     res.render('article', { title: 'Article' });
 });
 
+router.get('/coursedetail', function(req, res, next) {
+    res.render('coursedetail', { title: 'Coursedetail' });
+});
+
 module.exports = router;
