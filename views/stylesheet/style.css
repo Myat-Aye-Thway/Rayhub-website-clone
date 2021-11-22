@@ -1239,7 +1239,7 @@ input::-webkit-input-placeholder {
     padding-bottom: 31px;
 }
 .menu-bar .menu-bar-wrap{
-    border-top: 1px solid #ebca0f; 
+    border-top: 1px solid #e2e2de; 
     background: rgba(255, 255, 255, 0.2);
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
