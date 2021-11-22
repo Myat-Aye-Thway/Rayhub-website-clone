@@ -34,4 +34,8 @@ router.get('/coursedetail', function(req, res, next) {
     res.render('coursedetail', { title: 'Coursedetail' });
 });
 
+router.get('/contact', function(req, res, next) {
+    res.render('contact', { title: 'Contact' });
+});
+
 module.exports = router;
